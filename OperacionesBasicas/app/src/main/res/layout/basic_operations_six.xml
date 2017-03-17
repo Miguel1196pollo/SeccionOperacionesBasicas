@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/menu">
+
+    <ImageButton
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/ib_go_seven"
+        android:src="@drawable/regreso"
+        />
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+
+
+        <ImageButton
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:text="@string/numero_79"
+            android:padding="20dp"
+            android:src="@drawable/numero79"
+            android:id="@+id/ib_numero_79"
+            android:layout_margin="1dp"
+            />
+
+        <ImageButton
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:text="@string/numero_80"
+            android:padding="20dp"
+            android:src="@drawable/numero80"
+            android:id="@+id/ib_numero_80"
+            android:layout_margin="1dp"
+            android:layout_marginRight="3dp"
+            />
+
+        <ImageButton
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:text="@string/numero_81"
+            android:padding="20dp"
+            android:src="@drawable/numero81"
+            android:id="@+id/ib_numero_81"
+            android:layout_margin="1dp"
+            android:layout_marginRight="10dp"
+            />
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+
+
+        <ImageButton
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:text="@string/numero_82"
+            android:padding="20dp"
+            android:src="@drawable/numero82"
+            android:id="@+id/ib_numero_82"
+            android:layout_margin="2dp"
+            />
+
+        <ImageButton
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:text="@string/numero_83"
+            android:padding="20dp"
+            android:src="@drawable/numero83"
+            android:id="@+id/ib_numero_83"
+            android:layout_margin="3dp"
+            />
+
+        <ImageButton
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:text="@string/numero_84"
+            android:padding="20dp"
+            android:src="@drawable/numero84"
+            android:id="@+id/ib_numero_84"
+            android:layout_margin="3dp"
+            />
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+
+
+        <ImageButton
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:text="@string/numero_85"
+            android:padding="20dp"
+            android:src="@drawable/numero85"
+            android:id="@+id/ib_numero_85"
+            android:layout_margin="2dp"
+            />
+
+        <ImageButton
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:text="@string/numero_86"
+            android:padding="20dp"
+            android:src="@drawable/numero86"
+            android:id="@+id/ib_numero_86"
+            android:layout_margin="1dp"
+            />
+
+        <ImageButton
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:text="@string/numero_87"
+            android:padding="20dp"
+            android:src="@drawable/numero87"
+            android:id="@+id/ib_numero_87"
+            android:layout_margin="3dp"
+            />
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+
+
+        <ImageButton
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:text="@string/numero_88"
+            android:padding="20dp"
+            android:src="@drawable/numero88"
+            android:id="@+id/ib_numero_88"
+            android:layout_margin="2dp"
+            />
+
+        <ImageButton
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:text="@string/numero_89"
+            android:padding="20dp"
+            android:src="@drawable/numero89"
+            android:id="@+id/ib_numero_89"
+            android:layout_margin="2dp"
+            />
+
+        <ImageButton
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:text="Numero_90"
+            android:padding="20dp"
+            android:src="@drawable/numero90"
+            android:id="@+id/ib_numero_90"
+            android:layout_margin="3dp"
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+
+
+        <ImageButton
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:text="@string/numero_91"
+            android:padding="20dp"
+            android:src="@drawable/numero91"
+            android:id="@+id/ib_numero_91"
+            android:layout_margin="2dp"
+            />
+
+
+
+        <ImageButton
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:text="@string/numero_92"
+            android:padding="20dp"
+            android:src="@drawable/numero92"
+            android:id="@+id/ib_numero_92"
+            android:layout_margin="3dp"
+            />
+
+        <ImageButton
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:text="@string/numero_93"
+            android:padding="20dp"
+            android:src="@drawable/numero93"
+            android:id="@+id/ib_numero_93"
+            android:layout_margin="3dp"
+            />
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

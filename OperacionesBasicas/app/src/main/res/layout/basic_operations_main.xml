@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/menu"
+    >
+
+    <ImageButton
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/ib_ir"
+        android:src="@drawable/regreso"
+
+        />
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+
+
+        <ImageButton
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="@string/numero_uno"
+            android:padding="20dp"
+            android:src="@drawable/numero1"
+            android:id="@+id/ib_numero_uno"
+            android:layout_margin="1dp"
+            />
+
+        <ImageButton
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="@string/numero_dos"
+            android:padding="20dp"
+            android:src="@drawable/numero2"
+            android:id="@+id/ib_numero_dos"
+            android:layout_margin="1dp"
+            android:layout_marginRight="3dp"
+            />
+
+        <ImageButton
+            android:layout_width="90dp"
+            android:layout_height="80dp"
+            android:text="@string/numero_tres"
+            android:padding="20dp"
+            android:src="@drawable/numero3"
+            android:id="@+id/ib_numero_tres"
+            android:layout_margin="1dp"
+            android:layout_marginRight="10dp"
+            />
+
+        <ImageButton
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="@string/numero_cuatro"
+            android:padding="20dp"
+            android:src="@drawable/numero4"
+            android:id="@+id/ib_numero_cuatro"
+            android:layout_margin="1dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+
+
+        <ImageButton
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="@string/numero_cinco"
+            android:padding="20dp"
+            android:src="@drawable/numero5"
+            android:id="@+id/ib_numero_cinco"
+            android:layout_margin="2dp"
+            />
+
+        <ImageButton
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="@string/numero_seis"
+            android:padding="20dp"
+            android:src="@drawable/numero6"
+            android:id="@+id/ib_numero_seis"
+            android:layout_margin="3dp"
+            />
+
+        <ImageButton
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="@string/numero_siete"
+            android:padding="20dp"
+            android:src="@drawable/numero7"
+            android:id="@+id/ib_numero_siete"
+            android:layout_margin="3dp"
+            />
+
+        <ImageButton
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="@string/numero_ocho"
+            android:padding="20dp"
+            android:src="@drawable/numero8"
+            android:id="@+id/ib_numero_ocho"
+            android:layout_margin="3dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+
+
+        <ImageButton
+            android:layout_width="70dp"
+            android:layout_height="80dp"
+            android:text="@string/numero_nueve"
+            android:padding="20dp"
+            android:src="@drawable/numero9"
+            android:id="@+id/ib_numero_nueve"
+            android:layout_margin="2dp"
+            />
+
+        <ImageButton
+            android:layout_width="70dp"
+            android:layout_height="80dp"
+            android:text="@string/numero_diez"
+            android:padding="20dp"
+            android:src="@drawable/numero10"
+            android:id="@+id/ib_numero_diez"
+            android:layout_margin="1dp"
+            />
+
+
+
+        <ImageButton
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:text="@string/numero_once"
+            android:padding="20dp"
+            android:src="@drawable/numero11"
+            android:id="@+id/ib_numero_once"
+            android:layout_margin="3dp"
+            />
+
+        <ImageButton
+            android:layout_width="100dp"
+            android:layout_height="90dp"
+            android:text="@string/numero_doce"
+            android:padding="20dp"
+            android:src="@drawable/numero12"
+            android:id="@+id/ib_numero_doce"
+            android:layout_margin="2dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+
+
+        <ImageButton
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:text="@string/numero_trece"
+            android:padding="20dp"
+            android:src="@drawable/numero13"
+            android:id="@+id/ib_numero_trece"
+            android:layout_margin="2dp"
+            />
+
+        <ImageButton
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:text="@string/numero_14"
+            android:padding="20dp"
+            android:src="@drawable/numero14"
+            android:id="@+id/ib_numero_catorce"
+            android:layout_margin="2dp"
+            />
+
+        <ImageButton
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:text="@string/numero_quince"
+            android:padding="20dp"
+            android:src="@drawable/numero15"
+            android:id="@+id/ib_numero_quince"
+            android:layout_margin="3dp"
+            />
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+
+
+        <ImageButton
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:text="@string/numero_diesciseis"
+            android:padding="20dp"
+            android:src="@drawable/numero16"
+            android:id="@+id/ib_numero_diesciseis"
+            android:layout_margin="2dp"
+            />
+
+        <ImageButton
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:text="@string/numero_diescisiete"
+            android:padding="20dp"
+            android:src="@drawable/numero17"
+            android:id="@+id/ib_numero_diescisiete"
+            android:layout_margin="2dp"
+            />
+
+        <ImageButton
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:text="@string/numero_diesciocho"
+            android:padding="20dp"
+            android:src="@drawable/numero18"
+            android:id="@+id/ib_numero_diesciocho"
+            android:layout_margin="3dp"
+            />
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
